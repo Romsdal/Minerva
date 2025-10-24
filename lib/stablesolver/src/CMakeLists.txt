@@ -1,0 +1,5 @@
+add_subdirectory(clique)
+add_subdirectory(stable)
+if(STABLESOLVER_BUILD_SHARED)
+    add_subdirectory(c_api)
+endif()

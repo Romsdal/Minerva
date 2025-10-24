@@ -1,0 +1,36 @@
+{
+    "BenchmarkConfig": {
+        "benchmark_name": "TPCC1",
+        "benchmark_type": "TPCC",
+        "duration": 30,
+        "clients": 700,
+        "pre_load_db": true,
+        "servers": [
+            "192.168.41.234:5000",
+            "192.168.41.218:5000",
+	        "192.168.41.127:5000",
+            "192.168.41.204:5000",
+            "192.168.41.98:5000",
+            "192.168.41.150:5000",
+            "192.168.41.192:5000",
+            "192.168.41.158:5000",
+            "192.168.41.169:5000",
+            "192.168.41.240:5000",
+            "192.168.41.31:5000",
+            "192.168.41.43:5000"
+        ]
+    },
+    "YCSBConfig": {
+        "YCSB_type": "A",
+        "contention_ratio": 0,
+        "transaction_size": 10,
+        "key_size": 10,
+        "value_size": 1000,
+        "record_count": 2000000,
+        "keyfile": "ycsb_keys.bin"
+    },
+    "TPCCConfig": {
+        "NumWarehouse": 100,
+        "warmupInSeconds": 10
+    }
+}

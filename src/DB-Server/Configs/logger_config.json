@@ -1,0 +1,27 @@
+{
+    "Logging": {
+        "LogLevel": {
+            "Default": "Trace",
+            "Microsoft": "Warning",
+            "Microsoft.Hosting.Lifetime": "Warning"
+        },
+        "Console": {
+            "LogLevel": {
+                "Default": "Trace",
+                "Microsoft": "Warning",
+                "Microsoft.Hosting.Lifetime": "Warning"
+            },
+            "FormatterName": "json",
+            "FormatterOptions": {
+                "SingleLine": true,
+                "IncludeScopes": true,
+                "TimestampFormat": "HH:mm:ss ",
+                "UseUtcTimestamp": true,
+                "JsonWriterOptions": {
+                    "Indented": true
+                }
+            }
+        }
+    },
+    "AllowedHosts": "*"
+}

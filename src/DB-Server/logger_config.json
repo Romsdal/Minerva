@@ -1,0 +1,26 @@
+{
+    "Logging": {
+        "LogLevel": {
+            "Default": "Warning",
+            "Microsoft": "Warning",
+            "Grpc": "Warning"
+        },
+        "Console": {
+            "LogLevel": {
+                "Default": "Information",
+                "Microsoft": "Warning",
+                "Grpc": "Warning"
+            },
+            "FormatterName": "json",
+            "FormatterOptions": {
+                "SingleLine": true,
+                "IncludeScopes": true,
+                "TimestampFormat": "HH:mm:ss ",
+                "JsonWriterOptions": {
+                    "Indented": true
+                }
+            }
+        }
+    },
+    "AllowedHosts": "*"
+}

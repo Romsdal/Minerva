@@ -1,0 +1,3 @@
+[submodule "lib/stablesolver"]
+	path = lib/stablesolver
+	url = https://github.com/yunhaom94/stablesolver.git

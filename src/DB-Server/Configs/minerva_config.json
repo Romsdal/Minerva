@@ -1,0 +1,7 @@
+{
+    "RocksDBPath": "minerva_rocksdb",
+    "SolverExact": true,
+    "ReplicaPriority": [0,1,2],
+    "LocalEpochInterval": 1000,
+    "CoordinatorGlobalEpochInterval": 2000
+}

@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>Minerva.DB_Server</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="DotNext" Version="5.25.1" />
+    <PackageReference Include="CommunityToolkit.HighPerformance" Version="8.4.0" />
+    <PackageReference Include="DotNext.AspNetCore.Cluster" Version="5.25.2" />
+    <PackageReference Include="MemoryPack.Streaming" Version="1.21.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="9.0.5" />
+    <PackageReference Include="NetCoreServer" Version="8.0.7" />
+    <PackageReference Include="protobuf-net" Version="3.2.56" />
+    <PackageReference Include="protobuf-net.BuildTools" Version="3.2.52" PrivateAssets="all" IncludeAssets="runtime;build;native;contentfiles;analyzers;buildtransitive" />
+    <PackageReference Include="System.IO.Hashing" Version="9.0.7" />
+    <PackageReference Include="MemoryPack" Version="1.21.4" />
+    <ProjectReference Include="../../lib/stablesolver/csharp/StableSolver/StableSolver.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>StableSolver</RootNamespace>
+
+    <Description>CSharp binding for StableSolver, a C++ library for MWIS.</Description>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="../../install/lib/libstablesolver.so.1.0.0">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>libstablesolver.so.1.0.0</Link>
+    </Content >
+  </ItemGroup>
+
+
+</Project>
