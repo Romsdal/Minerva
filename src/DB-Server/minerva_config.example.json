@@ -1,0 +1,9 @@
+{
+    "ReadStorage": "/mnt/data/minerva_data",
+    "DatabaseToLoad": ["YCSB"],
+    "SolverExact": false,
+    "ReplicaPriority": [0,1,2],
+    "LocalEpochInterval": 5,
+    "CoordinatorGlobalEpochInterval": 15
+
+}
